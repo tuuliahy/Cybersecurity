@@ -5,9 +5,23 @@ Cybersecurity and data privacy 2024 -Blended
 
 # **Logbook** 
  
-1.11.2024 
-  - Watching lecture recording 1.5 hours
-  - Creating a Git Reposity and starting working with Logbook 15 minutes
-  - Registration to the Cisco Networking Academy: Introduction to Cybersecurity and getting familiar withh course topic 15 minutes
+**1.11.2024**
+  - Watching lecture recording _1.5 hours_
+  - Creating a Git Reposity and starting working with Logbook _15 minutes_
+  - Registration to the Cisco Networking Academy: Introduction to Cybersecurity and getting familiar withh course topic _15 minutes_
 
     ***2 hours in total***
+
+
+**4.11.2024**
+ - Doing Cisco Networking Academy: Introduction to Cybersecurity _1h_
+
+     ***1 hour in total***
+
+
+**5.11.2024**
+- Watching lecture recording _1h_
+- Registrating and getting familiar with PortSwigger
+- Downloading BurpSuite
+
+     ***2 hours in total*** 
