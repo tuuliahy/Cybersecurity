@@ -20,8 +20,8 @@ Cybersecurity and data privacy 2024 -Blended
 
 
 **5.11.2024**
-- Watching lecture recording _1h_
-- Registrating and getting familiar with PortSwigger
-- Downloading BurpSuite
+- Watching lecture + Lab (Authentication) recordings _1h_
+- Registrating and exploring with PortSwigger
+- Downloading and exploring BurpSuite
 
      ***2 hours in total*** 
