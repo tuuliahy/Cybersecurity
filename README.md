@@ -16,7 +16,7 @@ Cybersecurity and data privacy 2024 -Blended
 **4.11.2024**
  - Doing Cisco Networking Academy: Introduction to Cybersecurity _1h_
 
-     ***1 hour in total***
+   ***1 hour in total***
 
 
 **5.11.2024**
@@ -24,11 +24,17 @@ Cybersecurity and data privacy 2024 -Blended
 - Registrating and exploring with PortSwigger
 - Downloading and exploring BurpSuite
 
-     ***2 hours in total***
+  ***2 hours in total***
 
 
 **9.11.2024**
 - Doing PortSwigger Labs for the task "Introduction to the portswigger environment" 
 - I did also 3 extra labs.
 
-     ***5 hours in total***
+  ***5 hours in total***
+
+
+**10.11.2024**
+- Doing some labs in PortSwigger
+
+  ***3 hours in total***
