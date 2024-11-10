@@ -35,6 +35,7 @@ Cybersecurity and data privacy 2024 -Blended
 
 
 **10.11.2024**
-- Doing some labs in PortSwigger
+- Doing some labs in PortSwigger _2.5 hours_
+- Doing the task "Introduction to the portswigger environment" report and submitted that to ItsLearning _0.5h_ 
 
   ***3 hours in total***
