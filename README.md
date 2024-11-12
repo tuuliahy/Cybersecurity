@@ -42,6 +42,7 @@ Cybersecurity and data privacy 2024 -Blended
 
 **12.11.2024**
 - Watching lecture recording and Tutorial videos in Panopto _2.5h_
-- Creating a database using Docker _05h_
+- Creating a database using Docker _15 minh_
+- Cloning Github repository to Visual Studio Code and committing changes back to Github _15 min_ 
 
   ***3 hours in total*** 
