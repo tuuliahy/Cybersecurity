@@ -39,3 +39,9 @@ Cybersecurity and data privacy 2024 -Blended
 - Doing the task "Introduction to the portswigger environment" report and submitted that to ItsLearning _0.5h_ 
 
   ***3 hours in total***
+
+**12.11.2024**
+- Watching lecture recording and Tutorial videos in Panopto _2.5h_
+- Creating a database using Docker _05h_
+
+  ***3 hours in total*** 
