@@ -41,8 +41,10 @@ Cybersecurity and data privacy 2024 -Blended
   ***3 hours in total***
 
 **12.11.2024**
-- Watching lecture recording and Tutorial videos in Panopto _2.5h_
-- Creating a database using Docker _15 minh_
-- Cloning Github repository to Visual Studio Code and committing changes back to Github _15 min_ 
+- Watching lecture recording and Tutorial videos in Panopto _2h_
+- Creating a database using Docker _15 min_
+- Doing the task called "The Booking system project → Phase 1" all the way to step 3 (where I actually made already the first a vulnerability) _1h_
+- Committing files back to GitHub using the terminal _15 min_ 
 
-  ***3 hours in total*** 
+
+  ***3,5 hours in total*** 
