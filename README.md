@@ -47,4 +47,9 @@ Cybersecurity and data privacy 2024 -Blended
 - Committing files back to GitHub using the terminal _15 min_ 
 
 
-  ***3,5 hours in total*** 
+  ***3,5 hours in total***
+
+**13.11.2024**
+- Starting the extra Netacad course "Cybersecurity Essentials" _1h_
+
+  ***1 hour in total***
