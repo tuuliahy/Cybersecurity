@@ -43,7 +43,7 @@ Cybersecurity and data privacy 2024 -Blended
 **12.11.2024**
 - Watching lecture recording and Tutorial videos in Panopto _2h_
 - Creating a database using Docker _15 min_
-- Doing the task called "The Booking system project → Phase 1" all the way to step 3 (where I actually made already the first a vulnerability) _1h_
+- Doing the task called "The Booking system project → Phase 1" all the way to step 3 (where I actually made already the first a vulnerability test) _1h_
 - Committing files back to GitHub using the terminal _15 min_ 
 
 
@@ -53,3 +53,10 @@ Cybersecurity and data privacy 2024 -Blended
 - Starting the extra Netacad course "Cybersecurity Essentials" _1h_
 
   ***1 hour in total***
+
+  **17.11.2024**
+- Doing the extra Netacad course "Cybersecurity Essentials" _2h_
+- Finishing the task "The Booking system project → Phase 1"  _1h_
+- 
+  ***1 hour in total***
+
