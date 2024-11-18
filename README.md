@@ -43,7 +43,7 @@ Cybersecurity and data privacy 2024 -Blended
 **12.11.2024**
 - Watching lecture recording and Tutorial videos in Panopto _2h_
 - Creating a database using Docker _15 min_
-- Doing the task called "The Booking system project → Phase 1" all the way to step 3 (where I actually made already the first a vulnerability test) _1h_
+- Starting the task called "The Booking system project → Phase 1" _1h_
 - Committing files back to GitHub using the terminal _15 min_ 
 
 
@@ -59,6 +59,6 @@ Cybersecurity and data privacy 2024 -Blended
 
   ***3 hours in total***
 
-  **17.11.2024**
-- Finishing the task "The Booking system project → Phase 1"  _1h_
+  **18.11.2024**
+- Finishing the task "The Booking system project → Phase 1"  _3h_
 -   ***1 hour in total***
