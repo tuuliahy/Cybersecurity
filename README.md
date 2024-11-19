@@ -61,11 +61,13 @@ Cybersecurity and data privacy 2024 -Blended
 
 **18.11.2024**
 - Continuing the task "The Booking system project → Phase 1"  _3h_
-- I mainly did the some fixies to my codxe because the data wasnt't saved to database even the registration was done succesfully. 
--   ***3 hours in total***
+- I mainly did the some fixies to my codxe because the data wasnt't saved to database even the registration was done succesfully.
+  
+  ***3 hours in total***
 
  **19.11.2024**
 - Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _2h_
 - I did the validation for username (email-form) and for password (to be at least 8 characters long). After that the Zap didn't find so many threats
-   and only a three username was added to the database (before that it was so many). 
--   ***2 hours in total***
+   and only a three username was added to the database (before that it was so many).
+
+  ***2 hours in total***
