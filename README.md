@@ -60,5 +60,9 @@ Cybersecurity and data privacy 2024 -Blended
   ***3 hours in total***
 
   **18.11.2024**
-- Finishing the task "The Booking system project → Phase 1"  _3h_
--   ***1 hour in total***
+- Continuing the task "The Booking system project → Phase 1"  _3h_
+-   ***3 hours in total***
+
+ **19.11.2024**
+- Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _2h_
+-   ***2 hours in total***
