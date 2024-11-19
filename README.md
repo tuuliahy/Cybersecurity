@@ -43,9 +43,8 @@ Cybersecurity and data privacy 2024 -Blended
 **12.11.2024**
 - Watching lecture recording and Tutorial videos in Panopto _2h_
 - Creating a database using Docker _15 min_
-- Starting the task called "The Booking system project → Phase 1" _1h_
+- Starting the task called "The Booking system project → Phase 1" (I did the database and work with that) _1h_
 - Committing files back to GitHub using the terminal _15 min_ 
-
 
   ***3,5 hours in total***
 
@@ -55,14 +54,18 @@ Cybersecurity and data privacy 2024 -Blended
   ***1 hour in total***
 
 **17.11.2024**
-- Doing the task "The Booking system project → Phase 1"  _3h_ 
+- Doing the task "The Booking system project → Phase 1"  _3h_
+- I did the code for the registration page and I had quite many problems to get the registration page to work. 
 
   ***3 hours in total***
 
 **18.11.2024**
 - Continuing the task "The Booking system project → Phase 1"  _3h_
+- I mainly did the some fixies to my codxe because the data wasnt't saved to database even the registration was done succesfully. 
 -   ***3 hours in total***
 
  **19.11.2024**
 - Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _2h_
+- I did the validation for username (email-form) and for password (to be at least 8 characters long). After that the Zap didn't find so many threats
+   and only a three username was added to the database (before that it was so many). 
 -   ***2 hours in total***
