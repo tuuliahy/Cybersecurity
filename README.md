@@ -79,7 +79,7 @@ Cybersecurity and data privacy 2024 -Blended
   ***3 hours in total***
 
 
-  **23.11.2024**
-  -Continuing the Phase 2 Booking system task __3h__ 
+**23.11.2024**
+- Continuing the Phase 2 Booking system task __3h__ 
 
-    ***3 hours in total***
+  ***3 hours in total***
