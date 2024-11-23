@@ -80,6 +80,8 @@ Cybersecurity and data privacy 2024 -Blended
 
 
 **23.11.2024**
-- Continuing the Phase 2 Booking system task __3h__ 
+- Finishing with the Phase 2 Booking system task __3h__
+- I got this done and finished. Finally I got all the vulnerabilities away, except the one Informational vulnerability.
+- Between the Zap-report I added the X-Content-Type-Options Header, Content-Security-Policy (CSP) Header and also used frame-ancestors.
 
   ***3 hours in total***
