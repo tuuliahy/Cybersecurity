@@ -71,3 +71,15 @@ Cybersecurity and data privacy 2024 -Blended
    and only a three username was added to the database (before that it was so many).
 
   ***2 hours in total***
+
+
+ **19.11.2024**
+- Wathching the lecture recording and at same time starteed to do the phase 2 task __3h__
+
+  ***3 hours in total***
+
+
+  **23.11.2024**
+  -Continuing the Phase 2 Booking system task __3h__ 
+
+    ***3 hours in total***
