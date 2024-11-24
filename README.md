@@ -73,13 +73,23 @@ Cybersecurity and data privacy 2024 -Blended
   ***2 hours in total***
 
 
- **19.11.2024**
+ **20.11.2024**
 - Wathching the lecture recording and at same time starteed to do the phase 2 task __3h__
 
   ***3 hours in total***
 
 
-  **23.11.2024**
-  -Continuing the Phase 2 Booking system task __3h__ 
+**23.11.2024**
+- Finishing with the Phase 2 Booking system task __3h__
+- I got this done and finished. Finally I got all the vulnerabilities away, except the one Informational vulnerability.
+- Between the Zap-report I added the X-Content-Type-Options Header, Content-Security-Policy (CSP) Header and also used frame-ancestors.
 
-    ***3 hours in total***
+  ***3 hours in total***
+
+**24.11.2024**
+- Yesterday I thought I had finished the Phase 2 but I did't have noticed the added part of logging
+- So today I continued with this part doing the logging part __2.5hj__
+- I did again the penetration testing in Zap but because there weren't any changes so I didn't updated the Zap documents. 
+  
+
+  ***2.5 hours in total***
