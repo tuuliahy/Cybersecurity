@@ -114,11 +114,14 @@ app.post('/register', async (c) => {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
+    // Luo käyttäjän token
+    const userToken = crypto.randomUUID(); // Luo satunnainen UUID-tunnus
+
     // Lisää uusi käyttäjä tietokantaan
     await client.queryArray(
-      `INSERT INTO abc123_users (username, password_hash, age, role) 
-       VALUES ($1, $2, $3, $4)`,
-      [username, hashedPassword, validatedAge, role]
+      `INSERT INTO abc123_users (username, password_hash, age, role, user_token) 
+       VALUES ($1, $2, $3, $4, $5)`,
+      [username, hashedPassword, validatedAge, role, userToken]
     );
 
     // Palauta onnistumisvastaus, jossa on linkki kirjautumissivulle ja etusivulle
@@ -148,7 +151,6 @@ app.get('/login', async (c) => {
   }
 });
 
-// Käsittele kirjautuminen
 app.post('/login', async (c) => {
   const body = await c.req.parseBody();
   const { username, password } = body;
@@ -159,7 +161,7 @@ app.post('/login', async (c) => {
 
     // Hae käyttäjä tietokannasta
     const result = await client.queryArray(
-      `SELECT user_id, username, password_hash FROM abc123_users WHERE username = $1`,
+      `SELECT user_id, username, password_hash, user_token FROM abc123_users WHERE username = $1`,
       [username]
     );
     
@@ -167,7 +169,7 @@ app.post('/login', async (c) => {
       return c.text('Invalid email or password', 400); // Jos käyttäjää ei löydy
     }
 
-    const [userId, storedUsername, storedPasswordHash] = result.rows[0];
+    const [userId, storedUsername, storedPasswordHash, userToken] = result.rows[0];
 
     // Tarkista, että salasana täsmää
     const passwordMatches = await bcrypt.compare(password, storedPasswordHash);
@@ -175,9 +177,23 @@ app.post('/login', async (c) => {
       return c.text('Invalid email or password', 400); // Jos salasana ei täsmää
     }
 
-    // Kirjautuminen onnistui, lisää linkki etusivulle
+    // Kirjautuminen onnistui, logitetaan tapahtuma
+    try {
+      // Tallennetaan vain user_token lokiin ilman IP-osoitetta
+      await client.queryArray(
+        `INSERT INTO login_logs (user_token) VALUES ($1)`,
+        [userToken]
+      );
+      console.log('Login event logged with user_token:', userToken);
+
+    } catch (logError) {
+      console.error('Error logging login event:', logError);
+    }
+
+    // Palautetaan HTML-vastaus kirjautumisesta
     return c.html(`
-      <h1>Login Successful!</h1>
+      <h1>Welcome back, ${storedUsername}!</h1>
+      <p>You have successfully logged in.</p>
       <p>Click <a href="/">here</a> to go to the homepage.</p>
     `);
 
@@ -191,5 +207,4 @@ app.post('/login', async (c) => {
   }
 });
 
-// Kuuntele palvelinta portissa 8000
 Deno.serve(app.fetch, { port: 8000 });
