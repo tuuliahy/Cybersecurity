@@ -73,7 +73,7 @@ Cybersecurity and data privacy 2024 -Blended
   ***2 hours in total***
 
 
- **19.11.2024**
+ **20.11.2024**
 - Wathching the lecture recording and at same time starteed to do the phase 2 task __3h__
 
   ***3 hours in total***
@@ -87,7 +87,9 @@ Cybersecurity and data privacy 2024 -Blended
   ***3 hours in total***
 
 **24.11.2024**
-- Yesterday I thought I had finsihed the Phase 2 but I did't have noticed the added part of logging
-- So today I continued with this part __3h__
+- Yesterday I thought I had finished the Phase 2 but I did't have noticed the added part of logging
+- So today I continued with this part doing the logging part __2.5hj__
+- I did again the penetration testing in Zap but because there weren't any changes so I didn't updated the Zap documents. 
+  
 
-  ***3 hours in total***
+  ***2.5 hours in total***
