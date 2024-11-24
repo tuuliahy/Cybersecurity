@@ -85,3 +85,10 @@ Cybersecurity and data privacy 2024 -Blended
 - Between the Zap-report I added the X-Content-Type-Options Header, Content-Security-Policy (CSP) Header and also used frame-ancestors.
 
   ***3 hours in total***
+
+
+  **24.11.2024**
+- Yesterday I thought I had finsihed the Phase 2 but I did't have noticed the added part of logging
+- So today I continued with this part __3h__
+
+  ***3 hours in total***
