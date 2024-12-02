@@ -3,6 +3,7 @@ import { Client } from "https://deno.land/x/postgres@v0.17.0/mod.ts";  // Postgr
 import * as bcrypt from "https://deno.land/x/bcrypt/mod.ts";  // Salasanan hashaukseen
 import { z } from "https://deno.land/x/zod@v3.16.1/mod.ts"; // Zod validointiin
 import * as path from "https://deno.land/std@0.186.0/path/mod.ts"; // Polun käsittelyyn
+import { setCookie, getCookies } from "https://deno.land/std@0.186.0/http/cookie.ts";
 
 const app = new Hono(); // Luo Hono-sovellus
 
@@ -151,46 +152,39 @@ app.get('/login', async (c) => {
   }
 });
 
+// Käsittele kirjautuminen
 app.post('/login', async (c) => {
   const body = await c.req.parseBody();
   const { username, password } = body;
 
   try {
-    // Validointi kirjautumisen syötteelle
     loginSchema.parse({ username, password });
 
-    // Hae käyttäjä tietokannasta
     const result = await client.queryArray(
       `SELECT user_id, username, password_hash, user_token FROM abc123_users WHERE username = $1`,
       [username]
     );
-    
+
     if (result.rows.length === 0) {
-      return c.text('Invalid email or password', 400); // Jos käyttäjää ei löydy
+      return c.text('Invalid email or password', 400);
     }
 
     const [userId, storedUsername, storedPasswordHash, userToken] = result.rows[0];
 
-    // Tarkista, että salasana täsmää
     const passwordMatches = await bcrypt.compare(password, storedPasswordHash);
     if (!passwordMatches) {
-      return c.text('Invalid email or password', 400); // Jos salasana ei täsmää
+      return c.text('Invalid email or password', 400);
     }
 
-    // Kirjautuminen onnistui, logitetaan tapahtuma
-    try {
-      // Tallennetaan vain user_token lokiin ilman IP-osoitetta
-      await client.queryArray(
-        `INSERT INTO login_logs (user_token) VALUES ($1)`,
-        [userToken]
-      );
-      console.log('Login event logged with user_token:', userToken);
+    // Aseta sessio evästeeseen
+    setCookie(c.res.headers, {
+      name: "user_token",
+      value: userToken,
+      httpOnly: true,
+      path: "/",
+      maxAge: 3600, // Eväste on voimassa 1 tunnin
+    });
 
-    } catch (logError) {
-      console.error('Error logging login event:', logError);
-    }
-
-    // Palautetaan HTML-vastaus kirjautumisesta
     return c.html(`
       <h1>Welcome back, ${storedUsername}!</h1>
       <p>You have successfully logged in.</p>
