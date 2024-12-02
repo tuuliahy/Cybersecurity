@@ -88,8 +88,37 @@ Cybersecurity and data privacy 2024 -Blended
 
 **24.11.2024**
 - Yesterday I thought I had finished the Phase 2 but I did't have noticed the added part of logging
-- So today I continued with this part doing the logging part __2.5hj__
+- So today I continued with this part doing the logging part __2.5h__
 - I did again the penetration testing in Zap but because there weren't any changes so I didn't updated the Zap documents. 
   
 
   ***2.5 hours in total***
+
+
+  **25.11.2024**
+- I continued the extra CCNA course __ 2h__
+
+  ***2 hours in total***
+
+  **27.11.2024**
+- Watched the lecture recording and the video "Tutoria: Week 5 - Wider test" __1.5h__
+- Started the phase 3 task by doing the Zap report __2.5h__
+- Because I used the teacher's code I needed to create new container and database because the one I made I have different named tables and so on to get the code works. 
+  
+
+  ***4 hours in total***
+
+  **28.11.2024**
+- Continued working with the phase 3 and started to write the report. I also made the functional test for the application to find some vulnerabilities that need to be fixed. __2h__
+
+  ***2 hours in total***
+
+  **2.12.2024**
+- Finished the phase 3 task and committed it to Github __1.5__
+- Finished the PortSwigger lab so I got done all 12 labs __2.5__
+  
+
+  ***4 hours in total***
+
+
+  
