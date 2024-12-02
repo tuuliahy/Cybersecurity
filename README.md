@@ -66,11 +66,11 @@ Cybersecurity and data privacy 2024 -Blended
   ***3 hours in total***
 
  **19.11.2024**
-- Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _2h_
+- Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _3h_
 - I did the validation for username (email-form) and for password (to be at least 8 characters long). After that the Zap didn't find so many threats
    and only a three username was added to the database (before that it was so many).
 
-  ***2 hours in total***
+  ***3 hours in total***
 
 
  **20.11.2024**
@@ -88,17 +88,17 @@ Cybersecurity and data privacy 2024 -Blended
 
 **24.11.2024**
 - Yesterday I thought I had finished the Phase 2 but I did't have noticed the added part of logging
-- So today I continued with this part doing the logging part _2.5h_
+- So today I continued with this part doing the logging part _3h_
 - I did again the penetration testing in Zap but because there weren't any changes so I didn't updated the Zap documents. 
   
 
-  ***2.5 hours in total***
+  ***3 hours in total***
 
 
 **25.11.2024**
-- I continued the extra CCNA course _2h_
+- I continued the extra CCNA course _3h_
 
-  ***2 hours in total***
+  ***3 hours in total***
 
 **27.11.2024**
 - Watched the lecture recording and the video "Tutoria: Week 5 - Wider test" _1.5h_
@@ -109,9 +109,9 @@ Cybersecurity and data privacy 2024 -Blended
   ***4 hours in total***
 
 **28.11.2024**
-- Continued working with the phase 3 and started to write the report. I also made the functional test for the application to find some vulnerabilities that need to be fixed. _2h_
+- Continued working with the phase 3 and started to write the report. I also made the functional test for the application to find some vulnerabilities that need to be fixed. _3h_
 
-  ***2 hours in total***
+  ***3 hours in total***
 
 **2.12.2024**
 - Finished the phase 3 task and committed it to Github _1.5_
