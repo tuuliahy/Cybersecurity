@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Reservations</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Manage Reservations</h1>
+        <form action="/reservations" method="POST">
+            <!-- Reservation ID (hidden for editing existing entries) -->
+            <input type="hidden" name="reservation_id" id="reservation_id">
+
+            <!-- Reserver Token -->
+            <div class="form-group">
+                <label for="reserver_token">Reserver Token:</label>
+                <input type="text" name="reserver_token" id="reserver_token" maxlength="36" required>
+            </div>
+
+            <!-- Resource ID -->
+            <div class="form-group">
+                <label for="resource_id">Resource:</label>
+                <select name="resource_id" id="resource_id" required>
+                    <!-- Options will be dynamically populated -->
+                </select>
+            </div>
+
+            <!-- Reservation Start -->
+            <div class="form-group">
+                <label for="reservation_start">Reservation Start:</label>
+                <input type="datetime-local" name="reservation_start" id="reservation_start" required>
+            </div>
+
+            <!-- Reservation End -->
+            <div class="form-group">
+                <label for="reservation_end">Reservation End:</label>
+                <input type="datetime-local" name="reservation_end" id="reservation_end" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit">Save Reservation</button>
+            </div>
+        </form>
+    </div>
+    <script src="/static/reservationsList.js"></script>
+</body>
+</html>
