@@ -74,13 +74,13 @@ Cybersecurity and data privacy 2024 -Blended
 
 
  **20.11.2024**
-- Wathching the lecture recording and at same time starteed to do the phase 2 task __3h__
+- Wathching the lecture recording and at same time starteed to do the phase 2 task _3h_
 
   ***3 hours in total***
 
 
 **23.11.2024**
-- Finishing with the Phase 2 Booking system task __3h__
+- Finishing with the Phase 2 Booking system task _3h_
 - I got this done and finished. Finally I got all the vulnerabilities away, except the one Informational vulnerability.
 - Between the Zap-report I added the X-Content-Type-Options Header, Content-Security-Policy (CSP) Header and also used frame-ancestors.
 
@@ -88,7 +88,7 @@ Cybersecurity and data privacy 2024 -Blended
 
 **24.11.2024**
 - Yesterday I thought I had finished the Phase 2 but I did't have noticed the added part of logging
-- So today I continued with this part doing the logging part __2.5h__
+- So today I continued with this part doing the logging part _2.5h_
 - I did again the penetration testing in Zap but because there weren't any changes so I didn't updated the Zap documents. 
   
 
@@ -96,26 +96,26 @@ Cybersecurity and data privacy 2024 -Blended
 
 
 **25.11.2024**
-- I continued the extra CCNA course __2h__
+- I continued the extra CCNA course _2h_
 
   ***2 hours in total***
 
 **27.11.2024**
-- Watched the lecture recording and the video "Tutoria: Week 5 - Wider test" __1.5h__
-- Started the phase 3 task by doing the Zap report __2.5h__
+- Watched the lecture recording and the video "Tutoria: Week 5 - Wider test" _1.5h_
+- Started the phase 3 task by doing the Zap report _2.5h_
 - Because I used the teacher's code I needed to create new container and database because the one I made I have different named tables and so on to get the code works. 
   
 
   ***4 hours in total***
 
 **28.11.2024**
-- Continued working with the phase 3 and started to write the report. I also made the functional test for the application to find some vulnerabilities that need to be fixed. __2h__
+- Continued working with the phase 3 and started to write the report. I also made the functional test for the application to find some vulnerabilities that need to be fixed. _2h_
 
   ***2 hours in total***
 
 **2.12.2024**
-- Finished the phase 3 task and committed it to Github __1.5__
-- Finished the PortSwigger lab so I got done all 12 labs (now I did 6 labs) __3.5__
+- Finished the phase 3 task and committed it to Github _1.5_
+- Finished the PortSwigger lab so I got done all 12 labs (now I did 6 labs from different topics) _3.5_
   
 
   ***5 hours in total***
