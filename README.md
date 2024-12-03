@@ -116,7 +116,8 @@ Cybersecurity and data privacy 2024 -Blended
 **2.12.2024**
 - Finished the phase 3 task and committed it to Github _1.5h_
 - Finished the PortSwigger lab so I got done all 12 labs (now I did 6 labs from different topics) _3.5h_
-- Link to Phase3 report https://github.com/tuuliahy/Cybersecurity/blob/main/2024-11-27-ZAP-Phase3Report.md
+- Link to Phase3 report https://github.com/tuuliahy/Cybersecurity/blob/main/Phase3Report.md
+- And link to the Zap report that was used in phase 3 task: https://github.com/tuuliahy/Cybersecurity/blob/main/2024-11-27-ZAP-Phase3Report.md
 - The used code is found from Master branch. 
   
 
