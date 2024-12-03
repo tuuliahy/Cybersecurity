@@ -1,10 +1,11 @@
 import { serve } from "https://deno.land/std@0.199.0/http/server.ts";
 import { loginUser } from "./routes/login.js";
-import { registerUser } from "./routes/register.js";
+import { registerUser, getAccountInfo } from "./routes/register.js";
 import { registerResource, getResources } from "./routes/resource.js";
 import { registerReservation, handleReservationForm } from "./routes/reservation.js";
 import { handleIndex, handleDefaultIndex } from "./routes/indexPage.js";
 import { getSession, destroySession, getCookieValue } from "./sessionService.js"; // For sessions
+import { join } from "https://deno.land/std/path/mod.ts"; // Ensure this import is included
 
 let connectionInfo = {};
 
@@ -132,9 +133,31 @@ async function handler(req) {
         return await registerReservation(formData);
     }
 
+    if (url.pathname === "/privacynotice" && req.method === "GET") {
+        return await serveStaticFile("./views/privacyPolicy.html", "text/html");
+    }
+    
+    if (url.pathname === "/terms" && req.method === "GET") {
+        return await serveStaticFile("./views/terms.html", "text/html");
+    }
+
+    if (url.pathname === "/account" && req.method === "GET") {
+        return await serveStaticFile("./views/account.html", "text/html");
+    }
+
+    // Route: Account info
+    if (url.pathname === "/accountInfo" && req.method === "GET") {
+        const session = getSession(req);
+        return await getAccountInfo(session.username);
+    }
+
+
+
     // Default response for unknown routes
     return new Response("Not Found", { status: 404 });
 }
+
+
 
 // Utility: Get content type for static files
 function getContentType(filePath) {

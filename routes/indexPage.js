@@ -79,9 +79,12 @@ export async function handleIndex(req) {
                     <h1>Welcome ${session.username}</h1>
                     <p>Please choose one of the options below:</p>
                     <ul>
-                        <li><a href="/logout">Log Out</a></li>
+                         <li><a href="/account">Account info</a></li>
                         <li><a href="/resources">Add a new resource</a></li>
                         <li><a href="/reservation">Add a new reservation</a></li>
+                        <li><a href="/logout">Log Out</a></li>
+                        <li><a href="/privacynotice">Privacy notice</a></li>
+                        <li><a href="/terms">Terms of service</a></li>
                     </ul>
                 <h1>Booked Resources</h1>
                 <table border="1" cellpadding="5" cellspacing="0">
@@ -124,8 +127,10 @@ export async function handleDefaultIndex(req) {
             <h1>Welcome to the Booking System</h1>
             <p>Please choose one of the options below:</p>
             <ul>
-                <li><a href="/login">Login</a></li>
+                 <li><a href="/login">Login</a></li>
                 <li><a href="/register">Register</a></li>
+                <li><a href="/privacynotice">Privacy notice</a></li>
+                <li><a href="/terms">Terms of service</a></li>
             </ul>
             <h1>Booked Resources</h1>
                 <table border="1" cellpadding="5" cellspacing="0">
