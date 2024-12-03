@@ -66,21 +66,21 @@ Cybersecurity and data privacy 2024 -Blended
   ***3 hours in total***
 
  **19.11.2024**
-- Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _2h_
+- Finishing the task "The Booking system project → Phase 1" and same time watching the "Fixing the issues" recording _3h_
 - I did the validation for username (email-form) and for password (to be at least 8 characters long). After that the Zap didn't find so many threats
    and only a three username was added to the database (before that it was so many).
 
-  ***2 hours in total***
+  ***3 hours in total***
 
 
  **20.11.2024**
-- Wathching the lecture recording and at same time starteed to do the phase 2 task __3h__
+- Wathching the lecture recording and at same time starteed to do the phase 2 task _3h_
 
   ***3 hours in total***
 
 
 **23.11.2024**
-- Finishing with the Phase 2 Booking system task __3h__
+- Finishing with the Phase 2 Booking system task _3h_
 - I got this done and finished. Finally I got all the vulnerabilities away, except the one Informational vulnerability.
 - Between the Zap-report I added the X-Content-Type-Options Header, Content-Security-Policy (CSP) Header and also used frame-ancestors.
 
@@ -88,8 +88,49 @@ Cybersecurity and data privacy 2024 -Blended
 
 **24.11.2024**
 - Yesterday I thought I had finished the Phase 2 but I did't have noticed the added part of logging
-- So today I continued with this part doing the logging part __2.5hj__
+- So today I continued with this part doing the logging part _3h_
 - I did again the penetration testing in Zap but because there weren't any changes so I didn't updated the Zap documents. 
   
 
-  ***2.5 hours in total***
+  ***3 hours in total***
+
+
+**25.11.2024**
+- I continued the extra CCNA course _3h_
+
+  ***3 hours in total***
+
+**27.11.2024**
+- Watched the lecture recording and the video "Tutoria: Week 5 - Wider test" _1.5h_
+- Started the phase 3 task by doing the Zap report _2.5h_
+- Because I used the teacher's code I needed to create new container and database because the one I made I have different named tables and so on to get the code works. 
+  
+
+  ***4 hours in total***
+
+**28.11.2024**
+- Continued working with the phase 3 and started to write the report. I also made the functional test for the application to find some vulnerabilities that need to be fixed. _3h_
+
+  ***3 hours in total***
+
+**2.12.2024**
+- Finished the phase 3 task and committed it to Github _1.5h_
+- Finished the PortSwigger lab so I got done all 12 labs (now I did 6 labs from different topics) _3.5h_
+- **Link to Phase3 report https://github.com/tuuliahy/Cybersecurity/blob/main/Phase3Report.md**
+- **And link to the Zap report that was used in phase 3 task: https://github.com/tuuliahy/Cybersecurity/blob/main/2024-11-27-ZAP-Phase3Report.md**
+- The used code is found from Master branch. 
+  
+
+  ***5 hours in total***
+
+**3.12.2024**
+- Started the phase 4 task and I actually got it already done. This phase was so much easier than the previous ones because the code and the functionality of this booking system is already very familiar.
+- I used the code that was given in the phase 3 and added the required things to that code because I wanted to challenge myself a bit (and not use the given code).
+- I made also now the functional test for the whole booking system (everything is still working as it should work) and I also made the new Zap test for the account page. 
+- Here is link to the Master branh where is found the code that I updated:
+- Here is link to the Zap report where I tested the account page: 
+- I answered the questions stragiht to the ItsLearning so the answers are found there.
+  
+
+  ***5 hours in total***
+  

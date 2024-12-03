@@ -35,7 +35,7 @@ informational vulnerabilities. To find some vulnerabilities I also made function
 
 And one extra that should be fixed when moving to production. 
 
-+ 6. Not using the HTTPS-protocol 
+6. Not using the HTTPS-protocol 
 - When running the application anywhere (via Zap or Visual Studio Code) the browser should use the HTTPS-protocol instead of HTTP-protocol to enhance security. 
 - I actually found and noticed this already earlier during this course when running the code in Visual Studio Code and especially after using Zap Manual Expoler because the browser got the red note about "ei turvallinen". 
 - The application should run on browser using the HTTPS-protocol instead of HTTP. This because the HTTPS offer the secured browsing using the SSL/TLS security protocol. This is the one critical thing that really should be fixed before moving to production because application handles sensitive information. 
