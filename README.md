@@ -123,5 +123,14 @@ Cybersecurity and data privacy 2024 -Blended
 
   ***5 hours in total***
 
+**3.12.2024**
+- Started the phase 4 task and I actually got it already done. This phase was so much easier than the previous ones because the code and the functionality of this booking system is already very familiar.
+- I used the code that was given in the phase 3 and added the required things to that code because I wanted to challenge myself a bit (and not use the given code).
+- I made also now the functional test for the whole booking system (everything is still working as it should work) and I also made the new Zap test for the account page. 
+- Here is link to the Master branh where is found the code that I updated:
+- Here is link to the Zap report where I tested the account page: 
+- I answered the questions stragiht to the ItsLearning so the answers are found there.
+  
 
+  ***5 hours in total***
   
