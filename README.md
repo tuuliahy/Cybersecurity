@@ -49,7 +49,7 @@ Cybersecurity and data privacy 2024 -Blended
   ***3,5 hours in total***
 
 **13.11.2024**
-- Starting the extra Netacad course "Cybersecurity Essentials" _1h_
+- Starting the extra Netacad course "Cybersecurity Essentials" (Module 1) _2h_
 
   ***1 hour in total***
 
@@ -96,7 +96,7 @@ Cybersecurity and data privacy 2024 -Blended
 
 
 **25.11.2024**
-- I continued the extra CCNA course _3h_
+- I continued the extra CCNA course (Module 2-3) _2h_
 
   ***3 hours in total***
 
@@ -133,4 +133,17 @@ Cybersecurity and data privacy 2024 -Blended
   
 
   ***5 hours in total***
-  
+
+
+ **5.12.2024**
+ - Continuing with the extra CCNA course (Module 4-6) + Checkpoint Exam _3h_
+
+   ***3 hours in total***
+
+**6.12.2024**
+ - Continuing with the extra CCNA course (Module 7-9 ) _3h_
+ - Starting the phase 5 task _1h_
+
+   ***4 hours in total***
+
+   
