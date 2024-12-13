@@ -146,4 +146,9 @@ Cybersecurity and data privacy 2024 -Blended
 
    ***4 hours in total***
 
+**13.12.2024**
+- I started with the final phase and I got to do the steps 1 and 2. _3h_
+
+  ***3 hours in total***
+
    
