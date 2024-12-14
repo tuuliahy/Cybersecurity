@@ -6,7 +6,7 @@ Cybersecurity and data privacy 2024 -Blended
 # **Logbook** 
  
 **1.11.2024**
-  - Watching lecture recording (Kick-off lecture) _1.5_ hours_
+  - Watching lecture recording (Kick-off lecture) _1.5 hours_
   - Creating a Git Reposity and starting working with Logbook _15 minutes_
   - Registration to the Cisco Networking Academy: Introduction to Cybersecurity and getting familiar withh course topic _15 minutes_
 
